@@ -1,4 +1,4 @@
-#edit image name in 12 line for customization
+#edit image name in 14 line for customization
 
 import importlib
 import turtle
@@ -11,7 +11,7 @@ except ImportError:
         "OpenCV is required. Install it with: python -m pip install opencv-python"
     )
 
-IMAGE = "ss.png"
+IMAGE = "sp.png"
 img = cv2.imread(IMAGE)
 
 if img is None:
